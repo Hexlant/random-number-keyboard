@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="RandomNumberKeyboard">
+        <attr name="keyWidth"/>
+        <attr name="keyHeight"/>
+        <attr name="random" format="boolean"/>
+        <attr name="verticalSpacing" format="dimension"/>
+        <attr name="horizontalSpacing" format="dimension"/>
+        <attr name="numberKeyBackground" format="reference"/>
+        <attr name="numberKeyTextSize" format="dimension"/>
+        <attr name="numberKeyTextColor" format="reference"/>
+        <attr name="leftAuxText" format="string"/>
+        <attr name="rightAuxText" format="string"/>
+
+        <attr name="leftAuxBackground" format="reference"/>
+        <attr name="rightAuxBackground" format="reference"/>
+    </declare-styleable>
+</resources>

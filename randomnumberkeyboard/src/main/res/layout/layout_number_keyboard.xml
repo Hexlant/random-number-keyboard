@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:grid="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvKey0"
+        style="@style/key"
+        grid:layout_column="1"
+        grid:layout_columnWeight="1"
+        grid:layout_row="3"
+        grid:layout_rowWeight="1"/>
+
+
+    <TextView
+        android:id="@+id/tvKey1"
+        style="@style/key"
+        grid:layout_column="0"
+        grid:layout_columnWeight="1"
+        grid:layout_row="0"
+        grid:layout_rowWeight="1"/>
+
+
+    <TextView
+        android:id="@+id/tvKey2"
+        style="@style/key"
+        grid:layout_column="1"
+        grid:layout_columnWeight="1"
+        grid:layout_row="0"
+        grid:layout_rowWeight="1"/>
+
+
+    <TextView
+        android:id="@+id/tvKey3"
+        style="@style/key"
+        grid:layout_column="2"
+        grid:layout_columnWeight="1"
+        grid:layout_row="0"
+        grid:layout_rowWeight="1"/>
+
+
+    <TextView
+        android:id="@+id/tvKey4"
+        style="@style/key"
+        grid:layout_column="0"
+        grid:layout_columnWeight="1"
+        grid:layout_row="1"
+        grid:layout_rowWeight="1"/>
+
+
+    <TextView
+        android:id="@+id/tvKey5"
+        style="@style/key"
+        grid:layout_column="1"
+        grid:layout_columnWeight="1"
+        grid:layout_row="1"
+        grid:layout_rowWeight="1"/>
+
+
+
+    <TextView
+        android:id="@+id/tvKey6"
+        style="@style/key"
+        grid:layout_column="2"
+        grid:layout_columnWeight="1"
+        grid:layout_row="1"
+        grid:layout_rowWeight="1"/>
+
+
+    <TextView
+        android:id="@+id/tvKey7"
+        style="@style/key"
+        grid:layout_column="0"
+        grid:layout_columnWeight="1"
+        grid:layout_row="2"
+        grid:layout_rowWeight="1"/>
+
+
+    <TextView
+        android:id="@+id/tvKey8"
+        style="@style/key"
+        grid:layout_column="1"
+        grid:layout_columnWeight="1"
+        grid:layout_row="2"
+        grid:layout_rowWeight="1"/>
+
+
+    <TextView
+        android:id="@+id/tvKey9"
+        style="@style/key"
+        grid:layout_column="2"
+        grid:layout_columnWeight="1"
+        grid:layout_row="2"
+        grid:layout_rowWeight="1"/>
+
+
+    <TextView
+        android:id="@+id/tvLeftAux"
+        style="@style/key"
+        grid:layout_column="0"
+        grid:layout_columnWeight="1"
+        grid:layout_row="3"
+        grid:layout_rowWeight="1"/>
+
+
+    <TextView
+        android:id="@+id/tvRightAux"
+        style="@style/key"
+        grid:layout_column="2"
+        grid:layout_columnWeight="1"
+        grid:layout_row="3"
+        grid:layout_rowWeight="1"/>
+
+
+</merge>
