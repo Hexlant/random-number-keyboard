@@ -36,6 +36,7 @@ public class RandomNumberKeyboard extends GridLayout {
     @ColorRes private int numberKeyTextColor;
     @DrawableRes private int leftAuxBackground;
     @DrawableRes private int rightAuxBackground;
+//    @ColorRes private int borderColor;
     private String leftAuxText;
     private String rightAuxText;
 
@@ -155,6 +156,8 @@ public class RandomNumberKeyboard extends GridLayout {
             numberKeyTextColor = array.getResourceId(R.styleable.RandomNumberKeyboard_numberKeyTextColor,
                     R.drawable.key_text_color);
 
+//            borderColor = array.getResourceId(R.styleable.RandomNumberKeyboard_borderColor, android.R.color.darker_gray);
+
         } finally {
             array.recycle();
         }
@@ -167,7 +170,9 @@ public class RandomNumberKeyboard extends GridLayout {
 
         ArrayList<Integer> numbers = new ArrayList<>();
         for(int i = 0; i < COUNT; i++){
-            numericKeys.add((TextView) view.findViewById(getResources().getIdentifier("tvKey" + i, "id", getContext().getPackageName())));
+            TextView tv = (TextView) view.findViewById(getResources().getIdentifier("tvKey" + i, "id", getContext().getPackageName()));
+            tv.setTextSize(numberKeyTextSize);
+            numericKeys.add(tv);
             numbers.add(i);
         }
 
