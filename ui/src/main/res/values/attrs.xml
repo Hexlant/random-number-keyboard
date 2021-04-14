@@ -2,8 +2,8 @@
 <resources>
 
     <declare-styleable name="RandomNumberKeyboard">
-        <attr name="keyWidth"/>
-        <attr name="keyHeight"/>
+        <attr name="keyWidth" format="dimension"/>
+        <attr name="keyHeight" format="dimension"/>
         <attr name="random" format="boolean"/>
         <attr name="verticalSpacing" format="dimension"/>
         <attr name="horizontalSpacing" format="dimension"/>
